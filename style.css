@@ -1,0 +1,59 @@
+body {
+	background: #686868;
+	margin: 0;
+	font-size: 100%; 
+}
+
+header {
+	font-family: 'Pacifico', cursive, sans-serif;
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 5px;
+	padding-bottom:5px;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+a {
+	color: darkslateblue;
+	text-decoration: none;
+}
+
+main, footer {
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: auto;
+}
+
+main {
+	background: white;
+	min-height: 400px;
+	padding-bottom: 100px;
+}
+
+footer {
+	color: white;
+	font-size: small;
+}
+
+.images {
+	min-width: 300px;
+	float:left;
+}
+
+.description {
+	width: 60%;
+	min-width: 350px;
+	float: left;
+}
+
+.github_logo {
+	margin-left: 10px;
+}
